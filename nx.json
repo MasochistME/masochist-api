@@ -8,14 +8,9 @@
     }
   },
   "targetDefaults": {
-    "build": {
+    "api:build": {
       "dependsOn": [
-        "^build"
-      ]
-    },
-    "dev": {
-      "dependsOn": [
-        "^build"
+        "^sdk:build"
       ]
     }
   }
