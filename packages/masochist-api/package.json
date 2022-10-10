@@ -1,8 +1,9 @@
 {
   "name": "@masochistme/api",
   "version": "3.2.0",
-  "description": "Data Delivery Service",
+  "description": "MasochistME API Service",
   "main": "dist/index.js",
+  "private": true,
   "scripts": {
     "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
     "api:dev": "env ENV=dev PORT=3002 CORS=http://masochist.me DELAY=3000 BIG_DELAY=43200000 npx tsx src/index.ts",
