@@ -1,4 +1,7 @@
-/node_modules
-/dist
+node_modules
+dist
 yarn-error.log
 .env
+
+.yalc
+yalc.lock

@@ -20,7 +20,6 @@
 	],
 	"rules": {
 		"prettier/prettier": "error",
-		"no-useless-escape": "off",
-    "@typescript-eslint/ban-ts-comment": "warn"
+		"no-useless-escape": "off"
 	}
 }
